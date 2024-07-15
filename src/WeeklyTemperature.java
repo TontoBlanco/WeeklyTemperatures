@@ -54,7 +54,7 @@ public class WeeklyTemperature {
 
             // If 'week' is entered, display the weekly average temperature and break the loop
             if (input.equalsIgnoreCase("week")) {
-                displayWeeklyAverage(days, temperatures);
+                displayWeeklyAverage(temperatures);
                 break;
             } else {
                 // Display temperature for the specified day
